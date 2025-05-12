@@ -1,0 +1,11 @@
+# Prob 1 : Write a program that takes an integer, then a string,
+# then a char from the user and prints them in the screen.
+
+num1=int(input("Enter a integer number \n"))
+name=input("Enter your name  \n")
+cha=input("Enter a character\n")
+
+print(num1)
+print(name)
+print(cha)
+    
