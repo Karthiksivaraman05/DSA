@@ -1,0 +1,24 @@
+# Given mark of student, Print the Grade
+#
+# Grade A if mark is greater than or equal to 90
+#
+# Grade B if mark is greater than or equal to 80
+#
+# Grade C if mark if greater than or equal to 60
+#
+# Grade D if mark if greaer than or equal to 35
+#
+# Fail if mark is lesser than 35
+
+marks = int(input("Enter the mark of a student \n"))
+
+if marks>=90:
+    print("Grade A")
+elif  marks>=80 and marks<90:
+    print("Grade B")
+elif  marks>=60 and marks<80:
+    print("Grade C")
+elif  marks>=35 and marks<60:
+    print("Grade D")
+elif marks<35:
+    print("Fail")
