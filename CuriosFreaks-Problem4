@@ -1,0 +1,22 @@
+# Prob 4: Write a program using switch case which takes a value and prints the respective Size.
+# If size is 29 then its small
+#
+# If size is 30 then its Medium
+#
+# If size is 38 then its Large
+#
+# If size is 42 then its XLarge
+#
+# If size is not any of the above then Invalid.
+
+size=int(input("Enter the size of shirt \n"))
+if size ==29:
+    print("The shirt is Small Size ")
+elif size==30:
+    print("The shirt is Medium Size ")
+elif size==38:
+    print("The shirt is Large Size ")
+elif size==42:
+    print("The shirt is Xlarge Size ")
+else:
+    print("The shirt does not have a valid Size ")
