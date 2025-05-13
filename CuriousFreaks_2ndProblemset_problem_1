@@ -1,0 +1,14 @@
+# Write a program which takes two values x and y. Prints x for y number of times.
+#
+# Input:
+#
+# 2
+#
+# 3
+
+x_value=int(input("Enter the value of X \n"))
+y_value=int(input("Enter the value of Y \n"))
+
+for i in range(y_value):
+    print(x_value)
+
