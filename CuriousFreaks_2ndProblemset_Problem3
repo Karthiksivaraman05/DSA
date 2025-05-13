@@ -1,0 +1,14 @@
+# Write a program to get firstName and lastName and n as input and print fullName that is firstName+lastName for n times.
+# # Input
+# # Karthik
+# # Sivaraman
+# # 5
+
+First_name=input("Enter the first name \n")
+Last_name=input("Enter the last name \n")
+
+n=int(input("Enter the number of times that needs to be repeated \n"))
+
+for i in range(n):
+    print(First_name+" "+Last_name)
+    
